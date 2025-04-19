@@ -1,0 +1,58 @@
+/* ✅ Apply Background Image to Entire Streamlit Page */
+.stApp {
+    background: url('https://www.shutterstock.com/image-vector/fraud-scam-background-abstract-hacker-600nw-2434644369.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* ✅ Improve Text Contrast */
+h1, h2 {
+    color: #00FFFF !important;  /* Neon Blue */
+    text-shadow: 2px 2px 8px rgba(0, 255, 255, 0.8);
+    text-align: center;
+}
+
+h3, h4 {
+    color: #33FFFF !important; /* Bright Cyan */
+    text-align: center;
+}
+
+p {
+    color: #CCCCCC !important; /* Light Grey */
+}
+
+/* ✅ Improve Button Visibility */
+.stButton>button {
+    background-color: #FF9900 !important; /* Neon Orange */
+    color: black !important;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+
+/* ✅ Add Hover Effect for Buttons */
+.stButton>button:hover {
+    background-color: #FF6600 !important; /* Darker Orange */
+    color: white !important;
+    transform: scale(1.05);
+}
+
+/* ✅ Style Input Fields */
+.stTextInput>div>div>input {
+    background-color: black !important;
+    color: #00FFFF !important;
+    border: 1px solid #FF00FF !important; /* Bright Pink */
+    padding: 8px;
+    border-radius: 5px;
+}
+
+/* ✅ Make Text Inputs Stand Out on Hover */
+.stTextInput>div>div>input:hover {
+    border-color: #00FFFF !important;
+}
+
+/* ✅ Style the Sidebar (if used) */
+.stSidebar {
+    background-color: rgba(0, 0, 0, 0.8) !important; /* Dark Transparent */
+    color: #00FFFF !important;
+}
